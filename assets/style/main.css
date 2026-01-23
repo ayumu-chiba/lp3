@@ -1679,7 +1679,7 @@ source media="(min-width: 768px)" */
   }
 }
 
-.reason__point-title--course {
+.reason__point-title--course-style {
   margin: 0 auto;
   max-width: 21.9rem;
   border: 1.4px solid #fa7da3;
@@ -1691,21 +1691,21 @@ source media="(min-width: 768px)" */
 }
 
 @media (min-width: 768px) {
-  .reason__point-title--course {
+  .reason__point-title--course-style {
     margin: 0 auto;
     max-width: 48.8rem;
     padding: 0.5rem 0 0.5rem;
   }
 }
 
-.reason__point-label--course {
+.reason__point-label--course-style {
   font-size: 1.125rem;
   font-weight: 400;
   color: #fa7da3;
 }
 
 @media (min-width: 768px) {
-  .reason__point-label--course {
+  .reason__point-label--course-style {
     font-size: 1.75rem;
   }
 }
@@ -1811,7 +1811,7 @@ source media="(min-width: 768px)" */
 }
 
 @media (min-width: 768px) {
-  .reason__point--body-course {
+  .reason__point--type-body {
     padding: 0 1rem;
   }
 }
