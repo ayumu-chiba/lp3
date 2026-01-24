@@ -172,14 +172,9 @@ ul {
   gap: 0.3rem;
 }
 
-@media (min-width: 768px) {
-  .header__logo--symbol {
-    width: 6.6rem;
-  }
-
-  .header__logo--text {
-    width: 6.6rem;
-  }
+.header__logo--text,
+.header__logo--symbol {
+  display: block;
 }
 
 .header__actions {
@@ -343,7 +338,6 @@ ul {
   object-fit: cover;
 }
 
-
 /* こちらを制御している。
 source media="(min-width: 768px)" */
 @media (min-width: 768px) {
@@ -383,6 +377,7 @@ source media="(min-width: 768px)" */
     font-size: 10.1rem;
     padding-bottom: 1rem;
   }
+
   .cover__price-2 {
     font-size: 5rem;
     padding-top: 2.5rem;
