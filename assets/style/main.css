@@ -610,6 +610,7 @@ source media="(min-width: 768px)" */
 }
 
 @media (min-width: 768px) {
+
   .campaign__badge::before,
   .campaign__badge::after {
     content: "";
@@ -1906,9 +1907,11 @@ source media="(min-width: 768px)" */
 }
 
 .voice-slider-wrap {
-  max-width: 100%;
+  max-width: 60.5rem;
   overflow: hidden;
   height: 15.1rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .reason__point--voice {
@@ -1952,7 +1955,7 @@ source media="(min-width: 768px)" */
 }
 
 .voice-2 {
-  padding: 0.7rem 0.6rem 0.4rem 1rem;
+  padding: 0.7rem 0.6rem 0.3rem 1rem;
 }
 
 .voice-3 {
@@ -2016,7 +2019,6 @@ source media="(min-width: 768px)" */
   padding-right: 1.1rem;
 }
 
-
 @media (max-width: 767px) {
   .slick-list {
     overflow: visible;
@@ -2038,26 +2040,26 @@ source media="(min-width: 768px)" */
   }
 
   .cover-slick-item {
-    max-width: 24rem;
+    max-width: 20.4rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .cover-slick {
-    display: flex;
-    gap: .6rem;
-    justify-content: center;
-    flex-wrap: nowrap;
+  .voice-slider-wrap {
+    max-width: 45.6rem;
+    overflow: hidden;
+    height: 15.1rem;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .cover-slick-item {
-    flex: 1 1 0;
-    max-width: 15rem;
-    box-sizing: border-box;
+    max-width: 15.5rem;
+    padding: 0 0.2rem;
   }
 
   .voice-1 {
-    padding: 0.7rem 0.1rem 0.6rem 0.6rem;
+    padding: 0.7rem 0.1rem 0.5rem 0.6rem;
   }
 
   .voice-2 {
@@ -2094,7 +2096,42 @@ source media="(min-width: 768px)" */
   }
 }
 
-@media (max-width: 767.8px) {
+.cover-slick {
+  padding-bottom: 2.1rem;
+}
+
+.cover-slick .slick-dots {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cover-slick .slick-dots li {
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.cover-slick .slick-dots li button {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #ffd2d2;
+  border: 1px solid #ffd2d2;
+}
+
+.cover-slick .slick-dots li button::before {
+  content: none;
+}
+
+.cover-slick .slick-dots li.slick-active button {
+  background-color: #fa7da3;
+}
+
+@media (min-width: 767px) {
   .cover-slick {
     padding-bottom: 2.1rem;
   }
@@ -2131,7 +2168,6 @@ source media="(min-width: 768px)" */
   }
 }
 
-
 @media (min-width: 768px) {
   .cover-slick-dots {
     display: flex;
@@ -2151,12 +2187,6 @@ source media="(min-width: 768px)" */
     background: #fa7da3;
     width: 15px;
     height: 15px;
-  }
-}
-
-@media (max-width: 767px) {
-  .cover-slick-dots {
-    display: none;
   }
 }
 
