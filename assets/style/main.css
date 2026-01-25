@@ -79,7 +79,7 @@ ul {
 @media (min-width: 768px) {
   .header__action--contact {
     max-width: 17.475rem;
-    padding: 0.55rem 2.1rem 0.65rem 1.7rem;
+    padding: 0.55rem 2.3rem 0.65rem 1.7rem;
     font-size: 1.32rem;
   }
 }
@@ -92,7 +92,7 @@ ul {
   background-color: #49c43d;
   color: #ffffff;
   font-weight: 400;
-  letter-spacing: -0.4px;
+  letter-spacing: 0px;
 }
 
 @media (min-width: 768px) {
@@ -100,19 +100,32 @@ ul {
     max-width: 23.075rem;
     padding: 0.55rem 2.1rem 0.65rem 1.7rem;
     font-size: 1.32rem;
-    letter-spacing: -1.1px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.header__action-note {
+  font-size: 0.6rem;
+  letter-spacing: 0.9px;
+}
+
+@media (min-width: 768px) {
+  .header__action-note {
+    font-size: 1rem;
+    padding-right: 0.3rem;
   }
 }
 
 .button-white-ghost-icon {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   right: 0.4rem;
   transform: translate(0%, -50%);
 }
 
 @media (min-width: 768px) {
   .button-white-ghost-icon {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    padding-left: 0rem;
     right: 0.8rem;
   }
 }
@@ -190,7 +203,7 @@ ul {
 @media (min-width: 768px) {
   .header__actions {
     gap: 1.5rem;
-    margin-right: 1rem;
+    margin-right: 0.7rem;
     margin-top: 0.7rem;
   }
 }
