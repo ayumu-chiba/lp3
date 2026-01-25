@@ -149,7 +149,9 @@ ul {
 .header__inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
+  padding-right: 0.4rem;
 }
 
 @media (min-width: 768px) {
@@ -160,6 +162,7 @@ ul {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    padding-right: 0;
   }
 }
 
